@@ -5,5 +5,9 @@
 </head>
 <body>
 <h1>Post</h1>
+
+{% for i in posts %}
+<img src=" {{MEDIA_URL}}/media/{{i.image}} ">
+{% endfor %}
 </body>
 </html>
